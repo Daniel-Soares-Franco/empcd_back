@@ -27,6 +27,6 @@ export const CandidatoSchema = z.object({
     Deficiencia: z.string()
 })
 
-export const VagaId = z.object({
+export const CandidatoId = z.object({
     IdCand: z.string().min(6)
 })
